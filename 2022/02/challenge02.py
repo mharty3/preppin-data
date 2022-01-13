@@ -1,4 +1,4 @@
-# https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html
+# https://preppindata.blogspot.com/2022/01/2022-week-2-prep-school-birthday-cakes.html
 # 2022-01-12
 import pandas as pd
 import numpy as np
