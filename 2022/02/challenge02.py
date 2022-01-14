@@ -20,6 +20,13 @@ def prep_cake_day(RAW):
         cake_needed_on=lambda df_: df_["weekday"].where(
             ~df_["weekday"].isin(["Saturday", "Sunday"]), "Friday"
         ),
+        # alternative calculation using DateOffset and Rollback
+        cake_needed_on2=(lambda df_: df_['this_years_birthday']
+                                    .apply(lambda x: pd.offsets.BusinessDay()
+                                        .rollback(x)
+                                        .day_name()
+                                        )
+                        ),
         bds_per_weekday_and_month=lambda df_: df_.groupby(["month", "cake_needed_on"])[
             "pupil_name"
         ].transform("count"),
