@@ -1,5 +1,7 @@
 # [2022: Week 1 The Prep School - Parental Contact Details](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html)
 
+[![](py.jpg)](challenge01.py)
+
 ## Things I learned/practiced
 
 * string concatenation among series. Add string columns together to get a new concatenated series.

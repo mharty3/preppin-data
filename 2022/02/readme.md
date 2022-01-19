@@ -1,3 +1,7 @@
+# [2022 Week 2: Birthday Cakes](https://preppindata.blogspot.com/2022/01/2022-week-2-prep-school-birthday-cakes.html)
+
+[![](py.jpg)](challenge02.py)
+
 ## Things I learned/practiced
 
 * [pd.DateOffset](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects) - I used `pd.DateOffset` to replace the year of a `datetime` with a given year. When year, month, day, hour, minute, second, or microsecond is passed as an argument (note the singular nouns), adding a `DateOffset` to a `datetime` replaces that part of the original `datetime` with the new value. Despite using the `+` operator, it is **not** an arithmetic operation.

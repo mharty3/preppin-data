@@ -6,7 +6,7 @@ January 19, 2022
 [![alt text](./py.PNG)](challenge03.py)
 
 ## Things I learned/practiced
-This was a fun one and pretty straightforward with a simple join, some reshaping with melt, and some groupby named aggregations.
+This was a fun one and pretty straightforward for me (probably because there were no dates!) with a simple join, some reshaping with melt, and some groupby named aggregations.
 
 * One annoying issue I found was with the Pylance extension in VS Code. It complained about my named aggregations for some reason saying:
 
