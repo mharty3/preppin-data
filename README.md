@@ -7,5 +7,7 @@
 
 - [Week 3](2022/03)
 
+- [Week 4](2022/04)
+
 ------------------------
 Huge thanks to @Datajedininja, @JennyMartinDS14 & @TomProwse1 for putting these challenges together.
